@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Pomodoro Clock</title>
+</head>
+
+<body>
+  <audio id="horn" src="http://soundbible.com/mp3/Air%20Horn-SoundBible.com-964603082.mp3"></audio>
+  <div class="container text-center">
+    <h1 class="display-1 text-center">Pomodoro Clock</h1>
+    <div class="row timer">
+      <div class="col-md-6 session">
+        <p class="display-3">Session</p>
+        <button class="btn btn-sm btn-block" id='plusSession'>+</button>
+        <p class="display-3 timer" id="sessionTime">25</p>
+        <button class="btn btn-sm btn-block" id='minusSession'>-</button>
+      </div>
+      <div class="col-md-6 break">
+        <p class="display-3">Break</p>
+        <button class="btn btn-sm btn-block" id='plusBreak'>+</button>
+        <p class="display-3 timer" id="breakTime">5</p>
+        <button class="btn btn-sm btn-block" id='minusBreak'>-</button>
+      </div>
+    </div>
+    <div class="btngroup">
+      <button type="button" class="btn btn-lg" id="start">Start</button>
+      <!-- <button type="button" class="btn btn-lg" id="stop">Stop</button> -->
+      <button type="button" class="btn btn-lg" id="reset">Reset</button>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

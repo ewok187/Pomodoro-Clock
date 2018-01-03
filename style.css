@@ -1,0 +1,21 @@
+body {
+  background: #274982;
+}
+
+p {
+  color: #93b0ff;
+}
+
+.btn {
+  background: #274982;
+  border: solid #93b0ff;
+  color: #93b0ff;
+}
+
+.timer {
+  padding: 20px;
+}
+
+.btngroup {
+  padding-top: 20px;
+}
